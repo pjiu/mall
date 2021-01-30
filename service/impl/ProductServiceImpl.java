@@ -4,11 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import priv.jesse.mall.dao.ClassificationDao;
-import priv.jesse.mall.dao.ProductDao;
-import priv.jesse.mall.entity.Classification;
-import priv.jesse.mall.entity.Product;
-import priv.jesse.mall.service.ProductService;
+import com.studymall.dao.ClassificationDao;
+import com.studymall.dao.ProductDao;
+import com.studymall.entity.Classification;
+import com.studymall.entity.Product;
+import com.studymall.service.ProductService;
 
 import java.util.ArrayList;
 import java.util.List;
